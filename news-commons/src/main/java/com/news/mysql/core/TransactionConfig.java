@@ -46,7 +46,7 @@ public class TransactionConfig {
     /**
      * 设置事务拦截器
      */
-    @Bean
+    @Bean("mysqlCoreDataSourceTxAdvice")
     public TransactionInterceptor mysqlCoreDataSourceTxAdvice(@Qualifier("mysqlCoreDataSourceTransactionManager") DataSourceTransactionManager dataSourceTransactionManager) {
         // 默认事务
         DefaultTransactionAttribute defAttr = new DefaultTransactionAttribute(TransactionDefinition.PROPAGATION_REQUIRED);
@@ -75,7 +75,7 @@ public class TransactionConfig {
     /**
      * 设置切面
      */
-    @Bean
+    @Bean("txAdviceAdvisor")
     public Advisor txAdviceAdvisor(@Qualifier("mysqlCoreDataSourceTxAdvice") TransactionInterceptor mysqlCoreDataSourceTxAdvice) {
         AspectJExpressionPointcut pointcut = new AspectJExpressionPointcut();
         pointcut.setExpression(txScanPackage);

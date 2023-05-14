@@ -94,7 +94,7 @@ public class MysqlCoreConfig {
      * @return
      */
     public String getMapperFilePath() {
-        return new StringBuffer().append("classpath:").append(this.getRootMapper()).append("/**/*.xml").toString();
+        return new StringBuffer().append("classpath*:").append(this.getRootMapper()).append("/**/*.xml").toString();
     }
 
 

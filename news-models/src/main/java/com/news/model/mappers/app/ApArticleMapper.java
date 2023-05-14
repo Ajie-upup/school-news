@@ -6,6 +6,7 @@ import com.news.model.article.dtos.ArticleHomeDto;
 import com.news.model.article.pojos.ApArticle;
 import com.news.model.article.pojos.ApArticleSDto;
 import com.news.model.user.pojos.ApUserArticleList;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;

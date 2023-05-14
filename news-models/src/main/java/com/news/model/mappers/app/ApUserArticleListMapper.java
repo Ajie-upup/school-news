@@ -3,6 +3,7 @@ package com.news.model.mappers.app;
 import com.news.model.article.dtos.ArticleHomeDto;
 import com.news.model.user.pojos.ApUser;
 import com.news.model.user.pojos.ApUserArticleList;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
@@ -12,6 +13,7 @@ import java.util.List;
  * @date 2023/5/14
  * @description:
  */
+
 public interface ApUserArticleListMapper {
 
     /**
