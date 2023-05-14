@@ -20,6 +20,7 @@
         <module>news-apis</module>
         <module>news-utils</module>
         <module>news-models</module>
+        <module>service-article</module>
     </modules>
 
     <properties>

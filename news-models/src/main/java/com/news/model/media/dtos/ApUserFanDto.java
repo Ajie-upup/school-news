@@ -1,7 +1,7 @@
 package com.news.model.media.dtos;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.heima.model.annotation.IdEncrypt;
+import com.news.model.annotation.IdEncrypt;
 import lombok.Data;
 
 import java.util.Date;

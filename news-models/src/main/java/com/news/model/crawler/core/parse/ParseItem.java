@@ -1,6 +1,6 @@
 package com.news.model.crawler.core.parse;
 
-import com.heima.model.crawler.enums.CrawlerEnum;
+import com.news.model.crawler.enums.CrawlerEnum;
 
 import java.io.Serializable;
 

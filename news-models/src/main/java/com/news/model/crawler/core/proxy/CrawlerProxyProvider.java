@@ -1,6 +1,6 @@
 package com.news.model.crawler.core.proxy;
 
-import com.heima.model.crawler.core.callback.ProxyProviderCallBack;
+import com.news.model.crawler.core.callback.ProxyProviderCallBack;
 
 import java.util.List;
 import java.util.Random;

@@ -1,9 +1,10 @@
 package com.news.model.mess.admin;
 
 
-import com.heima.model.article.pojos.ApArticleConfig;
-import com.heima.model.article.pojos.ApArticleContent;
-import com.heima.model.article.pojos.ApAuthor;
+
+import com.news.model.article.pojos.ApArticleConfig;
+import com.news.model.article.pojos.ApArticleContent;
+import com.news.model.article.pojos.ApAuthor;
 import lombok.Data;
 
 @Data

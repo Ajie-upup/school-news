@@ -1,6 +1,6 @@
 package com.news.model.admin.dtos;
 
-import com.heima.model.admin.enums.CommonTableEnum;
+import com.news.model.admin.enums.CommonTableEnum;
 import lombok.Data;
 
 import java.util.List;

@@ -1,6 +1,6 @@
 package com.news.model.crawler.core.parse.impl;
 
-import com.heima.model.crawler.core.parse.ParseItem;
+import com.news.model.crawler.core.parse.ParseItem;
 
 public class CrawlerParseItem extends ParseItem {
     /**

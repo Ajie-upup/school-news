@@ -1,7 +1,8 @@
 package com.news.model.crawler.core.delayed;
 
-import com.heima.model.crawler.core.callback.ConcurrentCallBack;
-import com.heima.model.crawler.core.callback.DelayedCallBack;
+
+import com.news.model.crawler.core.callback.ConcurrentCallBack;
+import com.news.model.crawler.core.callback.DelayedCallBack;
 
 public class DelayedUtils {
 

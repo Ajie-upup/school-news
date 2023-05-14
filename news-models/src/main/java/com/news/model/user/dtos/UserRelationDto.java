@@ -1,6 +1,7 @@
 package com.news.model.user.dtos;
 
-import com.heima.model.annotation.IdEncrypt;
+
+import com.news.model.annotation.IdEncrypt;
 import lombok.Data;
 
 @Data

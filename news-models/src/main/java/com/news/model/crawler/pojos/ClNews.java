@@ -1,6 +1,6 @@
 package com.news.model.crawler.pojos;
 
-import com.heima.model.crawler.core.parse.ZipUtils;
+import com.news.model.crawler.core.parse.ZipUtils;
 import org.apache.commons.lang3.StringUtils;
 
 import java.util.Date;

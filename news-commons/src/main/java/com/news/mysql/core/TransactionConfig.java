@@ -46,7 +46,7 @@ public class TransactionConfig {
     /**
      * 设置事务拦截器
      */
-    @Bean("mysqlCoreDataSourceTxAdvice")
+    @Bean
     public TransactionInterceptor mysqlCoreDataSourceTxAdvice(@Qualifier("mysqlCoreDataSourceTransactionManager") DataSourceTransactionManager dataSourceTransactionManager) {
         // 默认事务
         DefaultTransactionAttribute defAttr = new DefaultTransactionAttribute(TransactionDefinition.PROPAGATION_REQUIRED);

@@ -1,6 +1,8 @@
 package com.news.model.crawler.core.callback;
 
-import com.heima.model.crawler.core.proxy.CrawlerProxy;
+
+
+import com.news.model.crawler.core.proxy.CrawlerProxy;
 
 import java.util.List;
 

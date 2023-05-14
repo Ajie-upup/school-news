@@ -1,7 +1,7 @@
 package com.news.model.media.dtos;
 
-import com.heima.model.annotation.IdEncrypt;
-import com.heima.model.common.dtos.PageRequestDto;
+import com.news.model.annotation.IdEncrypt;
+import com.news.model.common.dtos.PageRequestDto;
 import lombok.Data;
 
 import java.util.Date;

@@ -1,6 +1,7 @@
 package com.news.model.user.pojos;
 
-import com.heima.model.annotation.IdEncrypt;
+
+import com.news.model.annotation.IdEncrypt;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
