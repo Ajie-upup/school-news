@@ -29,10 +29,10 @@ public class ArticleTest {
     @Test
     public void testLoad() {
         ApUser apUser = new ApUser();
-        apUser.setId(21041l);
+        apUser.setId(1l);
         AppThreadLocalUtils.setUser(apUser);
         ArticleHomeDto dto = new ArticleHomeDto();
-        ResponseResult data = appArticleService.load(ArticleConstants.TYPE_LOAD_MORE, dto);
-        System.out.println(data.getData());
+        ResponseResult result = appArticleService.load(ArticleConstants.TYPE_LOAD_MORE, dto);
+        System.out.println(result.getData());
     }
 }

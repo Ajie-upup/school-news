@@ -21,6 +21,7 @@
         <module>news-utils</module>
         <module>news-models</module>
         <module>service-article</module>
+        <module>service-behavior</module>
     </modules>
 
     <properties>
